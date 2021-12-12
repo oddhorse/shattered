@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09951289276692D500FE31DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09951288276692D500FE31DC /* AppDelegate.swift */; };
+		0995128B276692D500FE31DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995128A276692D500FE31DC /* ViewController.swift */; };
+		0995128D276692D800FE31DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0995128C276692D800FE31DC /* Assets.xcassets */; };
+		09951290276692D800FE31DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0995128E276692D800FE31DC /* Main.storyboard */; };
+		0995129B276692D800FE31DC /* ShatteredDevTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995129A276692D800FE31DC /* ShatteredDevTests.swift */; };
+		099512A5276692D800FE31DC /* ShatteredDevUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099512A4276692D800FE31DC /* ShatteredDevUITests.swift */; };
+		099512A7276692D800FE31DC /* ShatteredDevUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099512A6276692D800FE31DC /* ShatteredDevUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09951297276692D800FE31DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0995127D276692D500FE31DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09951284276692D500FE31DC;
+			remoteInfo = ShatteredDev;
+		};
+		099512A1276692D800FE31DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0995127D276692D500FE31DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09951284276692D500FE31DC;
+			remoteInfo = ShatteredDev;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09951285276692D500FE31DC /* ShatteredDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShatteredDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09951288276692D500FE31DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0995128A276692D500FE31DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0995128C276692D800FE31DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0995128F276692D800FE31DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09951291276692D800FE31DC /* ShatteredDev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShatteredDev.entitlements; sourceTree = "<group>"; };
+		09951296276692D800FE31DC /* ShatteredDevTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShatteredDevTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0995129A276692D800FE31DC /* ShatteredDevTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShatteredDevTests.swift; sourceTree = "<group>"; };
+		099512A0276692D800FE31DC /* ShatteredDevUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShatteredDevUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		099512A4276692D800FE31DC /* ShatteredDevUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShatteredDevUITests.swift; sourceTree = "<group>"; };
+		099512A6276692D800FE31DC /* ShatteredDevUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShatteredDevUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09951282276692D500FE31DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09951293276692D800FE31DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0995129D276692D800FE31DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0995127C276692D500FE31DC = {
+			isa = PBXGroup;
+			children = (
+				09951287276692D500FE31DC /* ShatteredDev */,
+				09951299276692D800FE31DC /* ShatteredDevTests */,
+				099512A3276692D800FE31DC /* ShatteredDevUITests */,
+				09951286276692D500FE31DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09951286276692D500FE31DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09951285276692D500FE31DC /* ShatteredDev.app */,
+				09951296276692D800FE31DC /* ShatteredDevTests.xctest */,
+				099512A0276692D800FE31DC /* ShatteredDevUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09951287276692D500FE31DC /* ShatteredDev */ = {
+			isa = PBXGroup;
+			children = (
+				09951288276692D500FE31DC /* AppDelegate.swift */,
+				0995128A276692D500FE31DC /* ViewController.swift */,
+				0995128C276692D800FE31DC /* Assets.xcassets */,
+				0995128E276692D800FE31DC /* Main.storyboard */,
+				09951291276692D800FE31DC /* ShatteredDev.entitlements */,
+			);
+			path = ShatteredDev;
+			sourceTree = "<group>";
+		};
+		09951299276692D800FE31DC /* ShatteredDevTests */ = {
+			isa = PBXGroup;
+			children = (
+				0995129A276692D800FE31DC /* ShatteredDevTests.swift */,
+			);
+			path = ShatteredDevTests;
+			sourceTree = "<group>";
+		};
+		099512A3276692D800FE31DC /* ShatteredDevUITests */ = {
+			isa = PBXGroup;
+			children = (
+				099512A4276692D800FE31DC /* ShatteredDevUITests.swift */,
+				099512A6276692D800FE31DC /* ShatteredDevUITestsLaunchTests.swift */,
+			);
+			path = ShatteredDevUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09951284276692D500FE31DC /* ShatteredDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099512AA276692D800FE31DC /* Build configuration list for PBXNativeTarget "ShatteredDev" */;
+			buildPhases = (
+				09951281276692D500FE31DC /* Sources */,
+				09951282276692D500FE31DC /* Frameworks */,
+				09951283276692D500FE31DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShatteredDev;
+			productName = ShatteredDev;
+			productReference = 09951285276692D500FE31DC /* ShatteredDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09951295276692D800FE31DC /* ShatteredDevTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099512AD276692D800FE31DC /* Build configuration list for PBXNativeTarget "ShatteredDevTests" */;
+			buildPhases = (
+				09951292276692D800FE31DC /* Sources */,
+				09951293276692D800FE31DC /* Frameworks */,
+				09951294276692D800FE31DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09951298276692D800FE31DC /* PBXTargetDependency */,
+			);
+			name = ShatteredDevTests;
+			productName = ShatteredDevTests;
+			productReference = 09951296276692D800FE31DC /* ShatteredDevTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0995129F276692D800FE31DC /* ShatteredDevUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099512B0276692D800FE31DC /* Build configuration list for PBXNativeTarget "ShatteredDevUITests" */;
+			buildPhases = (
+				0995129C276692D800FE31DC /* Sources */,
+				0995129D276692D800FE31DC /* Frameworks */,
+				0995129E276692D800FE31DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				099512A2276692D800FE31DC /* PBXTargetDependency */,
+			);
+			name = ShatteredDevUITests;
+			productName = ShatteredDevUITests;
+			productReference = 099512A0276692D800FE31DC /* ShatteredDevUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0995127D276692D500FE31DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					09951284276692D500FE31DC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					09951295276692D800FE31DC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 09951284276692D500FE31DC;
+					};
+					0995129F276692D800FE31DC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 09951284276692D500FE31DC;
+					};
+				};
+			};
+			buildConfigurationList = 09951280276692D500FE31DC /* Build configuration list for PBXProject "ShatteredDev" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0995127C276692D500FE31DC;
+			productRefGroup = 09951286276692D500FE31DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09951284276692D500FE31DC /* ShatteredDev */,
+				09951295276692D800FE31DC /* ShatteredDevTests */,
+				0995129F276692D800FE31DC /* ShatteredDevUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09951283276692D500FE31DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0995128D276692D800FE31DC /* Assets.xcassets in Resources */,
+				09951290276692D800FE31DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09951294276692D800FE31DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0995129E276692D800FE31DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09951281276692D500FE31DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0995128B276692D500FE31DC /* ViewController.swift in Sources */,
+				09951289276692D500FE31DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09951292276692D800FE31DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0995129B276692D800FE31DC /* ShatteredDevTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0995129C276692D800FE31DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099512A5276692D800FE31DC /* ShatteredDevUITests.swift in Sources */,
+				099512A7276692D800FE31DC /* ShatteredDevUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09951298276692D800FE31DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09951284276692D500FE31DC /* ShatteredDev */;
+			targetProxy = 09951297276692D800FE31DC /* PBXContainerItemProxy */;
+		};
+		099512A2276692D800FE31DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09951284276692D500FE31DC /* ShatteredDev */;
+			targetProxy = 099512A1276692D800FE31DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0995128E276692D800FE31DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0995128F276692D800FE31DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		099512A8276692D800FE31DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		099512A9276692D800FE31DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		099512AB276692D800FE31DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShatteredDev/ShatteredDev.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = horse.odd.ShatteredDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		099512AC276692D800FE31DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShatteredDev/ShatteredDev.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = horse.odd.ShatteredDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		099512AE276692D800FE31DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = horse.odd.ShatteredDevTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShatteredDev.app/Contents/MacOS/ShatteredDev";
+			};
+			name = Debug;
+		};
+		099512AF276692D800FE31DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = horse.odd.ShatteredDevTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShatteredDev.app/Contents/MacOS/ShatteredDev";
+			};
+			name = Release;
+		};
+		099512B1276692D800FE31DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = horse.odd.ShatteredDevUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ShatteredDev;
+			};
+			name = Debug;
+		};
+		099512B2276692D800FE31DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = horse.odd.ShatteredDevUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ShatteredDev;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09951280276692D500FE31DC /* Build configuration list for PBXProject "ShatteredDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099512A8276692D800FE31DC /* Debug */,
+				099512A9276692D800FE31DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099512AA276692D800FE31DC /* Build configuration list for PBXNativeTarget "ShatteredDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099512AB276692D800FE31DC /* Debug */,
+				099512AC276692D800FE31DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099512AD276692D800FE31DC /* Build configuration list for PBXNativeTarget "ShatteredDevTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099512AE276692D800FE31DC /* Debug */,
+				099512AF276692D800FE31DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099512B0276692D800FE31DC /* Build configuration list for PBXNativeTarget "ShatteredDevUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099512B1276692D800FE31DC /* Debug */,
+				099512B2276692D800FE31DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0995127D276692D500FE31DC /* Project object */;
+}
