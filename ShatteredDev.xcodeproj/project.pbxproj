@@ -49,6 +49,7 @@
 		099512A6276692D800FE31DC /* ShatteredDevUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShatteredDevUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		099512B3276693DD00FE31DC /* Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
 		099512B4276693DD00FE31DC /* ShatteredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShatteredView.swift; sourceTree = "<group>"; };
+		099A9A312DBEB7B600225196 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		0995127C276692D500FE31DC = {
 			isa = PBXGroup;
 			children = (
+				099A9A312DBEB7B600225196 /* readme.md */,
 				09951287276692D500FE31DC /* ShatteredDev */,
 				09951299276692D800FE31DC /* ShatteredDevTests */,
 				099512A3276692D800FE31DC /* ShatteredDevUITests */,
