@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,10 @@
 		099512A7276692D800FE31DC /* ShatteredDevUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099512A6276692D800FE31DC /* ShatteredDevUITestsLaunchTests.swift */; };
 		099512B5276693DD00FE31DC /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099512B3276693DD00FE31DC /* Generator.swift */; };
 		099512B6276693DD00FE31DC /* ShatteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099512B4276693DD00FE31DC /* ShatteredView.swift */; };
+		099A9A412DBEC69400225196 /* ShatteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099512B4276693DD00FE31DC /* ShatteredView.swift */; };
+		099A9A422DBEC72800225196 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099512B3276693DD00FE31DC /* Generator.swift */; };
+		099A9A432DBEC72800225196 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995128A276692D500FE31DC /* ViewController.swift */; };
+		099A9A442DBEC72800225196 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09951288276692D500FE31DC /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09951285276692D500FE31DC /* ShatteredDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShatteredDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09951285276692D500FE31DC /* ShatteredDev.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShatteredDev.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		09951288276692D500FE31DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0995128A276692D500FE31DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0995128C276692D800FE31DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,7 +54,12 @@
 		099512B3276693DD00FE31DC /* Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
 		099512B4276693DD00FE31DC /* ShatteredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShatteredView.swift; sourceTree = "<group>"; };
 		099A9A312DBEB7B600225196 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		099A9A382DBEC64600225196 /* shattered.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shattered.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		099A9A392DBEC64600225196 /* shattered */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = shattered; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		09951282276692D500FE31DC /* Frameworks */ = {
@@ -74,6 +83,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		099A9A352DBEC64600225196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +100,7 @@
 				09951287276692D500FE31DC /* ShatteredDev */,
 				09951299276692D800FE31DC /* ShatteredDevTests */,
 				099512A3276692D800FE31DC /* ShatteredDevUITests */,
+				099A9A392DBEC64600225196 /* shattered */,
 				09951286276692D500FE31DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,9 +108,10 @@
 		09951286276692D500FE31DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09951285276692D500FE31DC /* ShatteredDev.app */,
+				09951285276692D500FE31DC /* ShatteredDev.saver */,
 				09951296276692D800FE31DC /* ShatteredDevTests.xctest */,
 				099512A0276692D800FE31DC /* ShatteredDevUITests.xctest */,
+				099A9A382DBEC64600225196 /* shattered.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +149,16 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		099A9A332DBEC64600225196 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		09951284276692D500FE31DC /* ShatteredDev */ = {
 			isa = PBXNativeTarget;
@@ -146,7 +174,7 @@
 			);
 			name = ShatteredDev;
 			productName = ShatteredDev;
-			productReference = 09951285276692D500FE31DC /* ShatteredDev.app */;
+			productReference = 09951285276692D500FE31DC /* ShatteredDev.saver */;
 			productType = "com.apple.product-type.application";
 		};
 		09951295276692D800FE31DC /* ShatteredDevTests */ = {
@@ -185,6 +213,29 @@
 			productReference = 099512A0276692D800FE31DC /* ShatteredDevUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		099A9A372DBEC64600225196 /* shattered */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099A9A3E2DBEC64600225196 /* Build configuration list for PBXNativeTarget "shattered" */;
+			buildPhases = (
+				099A9A332DBEC64600225196 /* Headers */,
+				099A9A342DBEC64600225196 /* Sources */,
+				099A9A352DBEC64600225196 /* Frameworks */,
+				099A9A362DBEC64600225196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				099A9A392DBEC64600225196 /* shattered */,
+			);
+			name = shattered;
+			packageProductDependencies = (
+			);
+			productName = shattered;
+			productReference = 099A9A382DBEC64600225196 /* shattered.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +257,9 @@
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = 09951284276692D500FE31DC;
 					};
+					099A9A372DBEC64600225196 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = 09951280276692D500FE31DC /* Build configuration list for PBXProject "ShatteredDev" */;
@@ -224,6 +278,7 @@
 				09951284276692D500FE31DC /* ShatteredDev */,
 				09951295276692D800FE31DC /* ShatteredDevTests */,
 				0995129F276692D800FE31DC /* ShatteredDevUITests */,
+				099A9A372DBEC64600225196 /* shattered */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +301,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0995129E276692D800FE31DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099A9A362DBEC64600225196 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,6 +342,17 @@
 			files = (
 				099512A5276692D800FE31DC /* ShatteredDevUITests.swift in Sources */,
 				099512A7276692D800FE31DC /* ShatteredDevUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099A9A342DBEC64600225196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099A9A412DBEC69400225196 /* ShatteredView.swift in Sources */,
+				099A9A422DBEC72800225196 /* Generator.swift in Sources */,
+				099A9A432DBEC72800225196 /* ViewController.swift in Sources */,
+				099A9A442DBEC72800225196 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +520,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
 		};
@@ -472,6 +546,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
 		};
@@ -567,6 +642,58 @@
 			};
 			name = Release;
 		};
+		099A9A3F2DBEC64600225196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCCAQJXX64;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = shatteredView;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = horse.odd.shattered;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		099A9A402DBEC64600225196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCCAQJXX64;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = shatteredView;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = horse.odd.shattered;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -602,6 +729,15 @@
 			buildConfigurations = (
 				099512B1276692D800FE31DC /* Debug */,
 				099512B2276692D800FE31DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099A9A3E2DBEC64600225196 /* Build configuration list for PBXNativeTarget "shattered" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099A9A3F2DBEC64600225196 /* Debug */,
+				099A9A402DBEC64600225196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,4 +12,4 @@ written in 2021, compiled as screensaver bundle and pushed in 2025.
 ## license
 copyright oddhorse (John Trinh) 2025. all rights reserved :)
 
-not being greedy i swear. i'm not particularly protective of this code in particular i'm just too lazy to pick one of those free use sort of licenses right now. go crazy with this repo honestly
+not being greedy i swear. i'm not protective of this code in particular i'm just too lazy to pick one of those free use sort of licenses right now. go crazy with this repo honestly
