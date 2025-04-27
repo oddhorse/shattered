@@ -2,7 +2,7 @@
 
 screensaver for macos
 
-i'm a big fan of the (https://www.youtube.com/watch?v=kfdDTv07Nhw)[deco screensaver from the ancient xscreensaver collection], but always wished it could be segmented into parts that aren't rectangles. so i made it!
+i'm a big fan of the [deco screensaver from the ancient xscreensaver collection](https://www.youtube.com/watch?v=kfdDTv07Nhw), but always wished it could be segmented into parts that aren't rectangles. so i made it!
 
 written in 2021, compiled as screensaver bundle and pushed in 2025.
 
